@@ -1,7 +1,17 @@
 void main() {
-  int a = 2;
-  int b = 4;
-  int c = 6;
+  double a = 2;
+  double b = 4;
+  double c = 6;
 
-  print((a+b+c) /3);
+  double media;
+  media = ((a+b+c) /3);
+
+  if(media>= 70) {
+    print("Aprovado");
+  } else if (media <= 30) {
+    print("Reprovado");
+  } else if (media <= 60) {
+    print("Exame");
+  }
+
 }
